@@ -1,0 +1,31 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /media/zj/data3-ext4/data-sets/gx-armors-datasets/yolo_datav2
+train: # train images (relative to 'path')  16551 images
+  - images
+val: # val images (relative to 'path')  4952 images
+  - images
+test: # test images (optional)
+  - images
+
+# Classes
+names:
+  0: medium reconnaissance wheeled vehicle
+  1: medium laser wheeled strike vehicle
+  2: small laser wheeled strike vehicle
+  3: medium artillery wheeled strike vehicle
+  4: small missile wheeled strike vehicle
+  5: small military aircraft
+  6: large artillery wheeled strike vehicle
+  7: large artillery crawler strike vehiclel
+  8: large communication wheeled vechicle
+  9: small missile crawler strike vehicle
+  10: large military aircraft
+  11: large wheeled carrier
+  12: small crawler support vehicle
+  13: medium wheeled command vechicle
+  14: small artillery crawler strike vehicle
+  15: large missile wheeled strike vehicle
+  16: large reconnaissance wheeled vehicle
+  17: small wheeled carrier
+  18: small reconnaissance wheeled vehicle
+  19: small artillery wheeled strike vehicle
